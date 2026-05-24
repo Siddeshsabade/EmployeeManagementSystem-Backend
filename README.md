@@ -34,22 +34,6 @@ MySQL
 Maven
 
 
-
-Setup
-bash# Clone the repository
-git clone https://github.com/EmployeeManagementSystem-Backend
-
-# Configure database in application.properties
-spring.datasource.url=jdbc:mysql://localhost:3306/ems_db
-spring.datasource.username=your_username
-spring.datasource.password=your_password
-
-# Run the application
-mvn spring-boot:run
-
-
-
-
 📡 API Endpoints
 Method        Endpoint               Description
 GET         /api/employees         Get all employees
